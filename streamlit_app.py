@@ -30,7 +30,7 @@ ingredients_list = st.multiselect(
     , max_selections=5
 )
 
-st.text(smoothiefroot_response)
+st.text(smoothiefroot_response,json())
 
 if ingredients_list:
     
